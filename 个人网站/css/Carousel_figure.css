@@ -1,0 +1,86 @@
+/*弹层*/
+.dialog-box-1{
+    background:rgba(0,0,0,0.6);
+    position:absolute;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    bottom:0px;
+    top: 0px;
+    /*z-index: 999;*/
+    display: none;
+}
+.dialog-box-1 .content{
+    width: 423px;
+    height: 498px;
+    background: #ffffff;
+    position: absolute;
+    left:50%;
+    top: 50%;
+    margin-top: -249px;
+    margin-left:-211px;
+    top: -250px;
+    animation: show 1s ease forwards;
+}
+@keyframes show {
+    100%{
+        top:50%;
+    }
+}
+.dialog-box-1 .dialog-title{
+    height: 30px;
+    background: #efefef;
+    /*text-align: center;*/
+    line-height: 30px;
+    border-bottom: 1px solid #efefef;
+}
+.dialog-box-1 .dialog-close{
+    float: right;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.dialog-box-1 .dialog-body{
+    text-align: center;
+    height: 406px;
+    /*子元素要居中，给父元素加text-align:center*/
+}
+li{
+    list-style: none;
+}
+#carousel{
+    width: 300px;
+    height: 420px;
+    /*overflow: hidden;*/
+    position: relative;
+    margin: 50px auto;
+    /*display: none;*/
+}
+.imgs{
+    width: 300px;
+    height: 375px;
+    position: absolute;
+    overflow: hidden;
+}
+.imgs img{
+    float: left;
+    width: 300px;
+    height: 375px;
+}
+.imgList{
+    position: absolute;
+    right:0px;
+    bottom: 10px;;
+}
+.imgList li{
+    float: left;
+    width:20px;
+    height: 20px;
+    background: #000;
+    color: #ffffff;
+    margin-right: 5px;
+    text-align: center;
+}
+
+#carousel .selected{
+    background: #31b0d5;
+}

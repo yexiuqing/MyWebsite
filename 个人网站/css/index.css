@@ -1,0 +1,292 @@
+ul{
+    list-style: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.home{
+    overflow: hidden;
+}
+.container{
+    width:960px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+#home #text{
+    margin-top: 50px;
+    float: left;
+    width:50%;
+}
+#home #img{
+    float: right;
+    width: 50%;
+}
+#nav-top .name{
+    font-size: 7em;
+    color: #000;
+    font-weight: bold;
+    font-family: "Glyphicons Halflings";
+
+}
+#nav-top .name:hover{
+    color: #31b0d5;
+}
+#nav-bottom li {
+    line-height: 4.2em;
+}
+#nav-bottom .nav1{
+    padding-left: 0px;
+}
+#nav-bottom li a{
+    /*color: #323b43;*/
+    color: #fff;
+    margin: 0px 0px;
+    font-size: 17px;
+    padding: 11px 104px;
+    background: #000011;
+    font-weight: 600;
+}
+#img img{
+    width: 300px;
+    height: 400px;
+}
+/*关于我*/
+#about{
+    background: #141a0b;
+    padding: 50px;
+}
+#about-info h2{
+
+    font-family: 'Jockey One', sans-serif;
+    /*margin-top: 20px;*/
+    color: #fff;
+    font-size: 44px;
+    text-align: center;
+    font-weight: 400;
+}
+#detail-info{
+    margin-top: 35px;
+
+}
+#detail-info .about-grid{
+    width: 50%;
+    float: left;
+    color: #ffffff;
+}
+#detail-info .col-md-1 h4,#detail-info .col-md-1 p{
+    margin-right: 15px;
+}
+/*skill*/
+#skill{
+    padding:80px;
+    overflow: hidden;
+}
+#skill .skill-info h2{
+    font-family: 'Jockey One', sans-serif;
+    margin: 0;
+    /*color: #ced7df;*/
+    color: #141a0b;
+    font-size: 44px;
+    text-align: center;
+    font-weight: 400;
+}
+#skill .skill-grids{
+    margin-top: 60px;
+    /*margin-bottom: 30px;*/
+}
+#skill .col-md-3{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+#skill .col-md-3 p
+{
+    margin: 34px 0 0 0;
+    font-size: 22px;
+    /*color: #ced7df;*/
+}
+#skill-2 .container{
+    display: none;
+    /*opacity: 0;*/
+}
+#skill-2 h3{
+    font-family: 'Jockey One', sans-serif;
+    margin: 0;
+    color: #141a0b;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 400;
+}
+#skill-2 .skill-2-grids{
+   text-align: center;
+}
+
+#skill-2 .skill-2-grids div{
+    float: left;
+    text-align: center;
+    /*width: 25%;*/
+    margin-right: 15px;
+}
+#skill-2 .col-md-3 p
+{
+    margin: 24px 0 0 0;
+    font-size: 18px;
+    /*color: #ced7df;*/
+}
+#production{
+    background: #141a0b;
+}
+#production li{
+    float: left;
+    margin: 0.4%;
+    background: #fff;
+    padding: 8px;
+    position: relative;
+    width: 30.4%;
+    cursor : pointer;
+
+}
+#production li img{
+    width: 100%;
+}
+@media screen and (max-width: 776px){
+   .container{
+       width: 100%;
+   }
+    #home #text{
+        width: 50%;
+        float: left;
+    }
+    #home #nav-top span{
+        font-size: 6em;
+    }
+    #home #img{
+        width: 50%;
+        float: right;
+    }
+    /*关于我*/
+    #about #about-info h2{
+        font-size: 35px;
+    }
+    /*skill*/
+    #skill{
+        display: none;
+    }
+    #skill-2 .container{
+        display: block;
+    }
+    /*小作品*/
+    #production li{
+        float: left;
+        margin: 0.4%;
+        background: #fff;
+        padding: 8px;
+        position: relative;
+        width:46%;
+        cursor : pointer;
+
+    }
+    #production li img{
+        width: 100%;
+    }
+
+}
+@media screen and (max-width: 425px){
+    .container{
+        width: 100%;
+    }
+    #home #text{
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    #home #nav-top span{
+        font-size: 5em;
+    }
+    #home #img{
+        width: 100%;
+        display: block;
+        text-alin:center;
+    }
+    #about .about-grid{
+        width: 100%;
+    }
+    #about .col-md-1{
+        margin-bottom: 25px;
+    }
+    #detail-info .col-md-1 h4,#detail-info .col-md-1 p{
+        margin-right: 0px;
+    }
+    #skill{
+        display: none;
+    }
+    #skill-2 .container{
+        display: block;
+    }
+    #skill-2 .skill-2-grids div{
+        float: left;
+        text-align: center;
+        /*width: 25%;*/
+        width: 100%;
+    }
+    #skill-2 .col-md-3 p
+    {
+        margin: 24px 0 0 0;
+        font-size: 18px;
+        /*color: #ced7df;*/
+    }
+    /*小作品*/
+    #production li{
+        float: left;
+        margin: 0.4%;
+        background: #fff;
+        padding: 8px;
+        position: relative;
+        width:100% ;
+        cursor : pointer;
+    }
+    #production li img{
+        width: 100%;
+    }
+}
+
+
+/*.dialog-body #ccarousel{
+
+}*/
+/*
+.dialog-body img{
+    width: 265px;
+    height: 385px;
+    margin-top: 10px;
+
+    position: absolute;
+    left: 80px;
+    top: 25px;
+    left: 50%;
+    margin-left:-132px;
+}
+.dialog-body span {
+    width: 30px;
+    height: 30px;
+    background:rgba(0,0,0,0.8);
+    color: #ffffff;
+    position: absolute;
+    font-size: 24px;
+    top: 50%;
+    margin-top: -15px;
+    border-radius: 50%;
+    text-align: center;
+}
+.dialog-body .prev{
+    left: 85px;
+    display: none;
+}
+.dialog-body .next{
+    right: 85px;
+    display: none;
+}*/

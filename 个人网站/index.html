@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>我的个人网站</title>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/Carousel_figure.css"/>
+    <link rel="stylesheet" href="css/cube.css"/>
+    <link rel="stylesheet" href="css/carrousel.css"/>
+    <link rel="stylesheet" href="css/clock.css"/>
+</head>
+<body>
+    <div id="home">
+        <div class="container">
+           <div id="text">
+               <div id="nav-top">
+                    <span class="name">Alisa</span>
+               </div>
+               <div id="nav-bottom">
+                    <ul class="nav1">
+                        <li><a class="scroll" href="#home">首部</a></li>
+                        <li><a class="scroll" href="#about">关于我</a></li>
+                        <li><a class="scroll" href="#production">小作品</a></li>
+                    </ul>
+               </div>
+
+            </div>
+            <div id="img">
+                <img src="images/home_1.jpg" alt=""/>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div  class="container">
+            <div id="about-info">
+                <h2>关于我</h2>
+            </div>
+            <div id="detail-info">
+                <div class="col-md-1 about-grid">
+                    <h4>What I do and my experience</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="col-md-2 about-grid">
+                    <h4>My goals</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="skill">
+        <div class="comtainer">
+            <div class="skill-1">
+                <div class="skill-info">
+                    <h2>MY SKILLS</h2>
+                </div>
+                <div class="skill-grids">
+                    <div class="skill-block">
+                        <div class="col-md-3 skills-grid text-center">
+                            <div class="circle" id="circles-1"></div>
+                            <p>HTML/CSS/Javascript</p>
+                        </div>
+                        <div class="col-md-3 skills-grid text-center">
+                            <div class="circle" id="circles-2"></div>
+                            <p>JQuery</p>
+                        </div>
+                    </div>
+                    <div class="skill-block">
+                        <div class="col-md-3 skills-grid text-center">
+                            <div class="circle" id="circles-3"></div>
+                            <p>PHP/Nodejs</p>
+                        </div>
+                        <div class="col-md-3 skills-grid text-center">
+                            <div class="circle" id="circles-4"></div>
+                            <p>Vue/Angular JS</p>
+                        </div>
+                    </div>
+
+                    <div class="clearfix"> </div>
+                    <script type="text/javascript" src="js/circles.js"></script>
+                    <script>
+                        var colors = [
+                            ['#ced7df', '#76b852'], ['#ced7df', '#76b852'], ['#ced7df', '#76b852'], ['#ced7df', '#76b852']
+                        ];
+                        for (var i = 1; i <= 5; i++) {
+                            var child = document.getElementById('circles-' + i),
+                                    percentage = 40 + (i * 10);
+
+                            Circles.create({
+                                id:         child.id,
+                                percentage: percentage,
+                                radius:     80,
+                                width:      10,
+                                number:   	percentage / 10,
+                                text:       '%',
+                                colors:     colors[i - 1]
+                            });
+                        }
+
+                    </script>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div id="skill-2">
+        <div class="container">
+            <div class="skill-2-info">
+                <h3>MY SKILLS</h3>
+            </div>
+            <div class="skill-2-grids">
+                <!--<div class="skill-block">-->
+                    <div class="col-md-3 skills-grid text-center">
+                        <img src="images/2.png" alt=""/>
+                        <p>HTML/CSS/Javascript</p>
+                    </div>
+                    <div class="col-md-3 skills-grid text-center">
+                        <img src="images/3.png" alt=""/>
+                        <p>JQuery</p>
+                    </div>
+                <!--</div>-->
+                <!--<div class="skill-block">-->
+                    <div class="col-md-3 skills-grid text-center">
+                        <img src="images/4.png" alt=""/>
+                        <p>PHP/Nodejs</p>
+                    </div>
+                    <div class="col-md-3 skills-grid text-center">
+                        <img src="images/5.png" alt=""/>
+                        <p>Vue/Angular JS</p>
+                    </div>
+                <!--</div>-->
+            </div>
+
+        </div>
+    </div>
+    <div id="production" >
+        <div class="container">
+
+            <h3>小作品</h3>
+            <section>
+                <ul id="production-list">
+
+                    <li class="production-1">
+                        <a href="#carousel">
+                            <img src="images/a1.jpg" alt=""/>
+                            <div>
+                                <h5>轮播图</h5>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="production-2">
+                        <img src="images/a2.jpg" alt=""/>
+                        <div>
+                            <h5>旋转的立方体</h5>
+                        </div>
+                    </li>
+                    <li class="production-3">
+                        <img src="images/a3.jpg" alt=""/>
+                        <div>
+                            <h5>旋转木马</h5>
+                        </div>
+                    </li>
+                    <li  class="production-4">
+                        <img src="images/a4.jpg" alt=""/>
+                        <div>
+                            <h5>漂亮的时钟</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/a5.jpg" alt=""/>
+                        <div>
+                            <h5>轮播图</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/a6.jpg" alt=""/>
+                        <div>
+                            <h5>轮播图</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/a7.jpg" alt=""/>
+                        <div>
+                            <h5>轮播图</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/a2.jpg" alt=""/>
+                        <div>
+                            <h5>轮播图</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/a1.jpg" alt=""/>
+                        <div>
+                            <h5>轮播图</h5>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </div>
+    <!--轮播图-->
+    <div class="dialog-box-1 dialog-box">
+        <div class="content">
+            <div class="dialog-title">
+                <span class="dialog-close">X</span>
+            </div>
+            <div class="dialog-body">
+                <div id="carousel">
+                    <div class="imgs">
+                        <img src="images/19.jpg" alt=""/>
+                        <img src="images/20.jpg" alt=""/>
+                        <img src="images/21.jpg" alt=""/>
+                        <img src="images/22.jpg" alt=""/>
+                        <img src="images/23.jpg" alt=""/>
+                        <img src="images/24.jpg" alt=""/>
+                    </div>
+                    <ul class="imgList">
+                        <li class="selected">1</li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li>4</li>
+                        <li>5</li>
+                        <li>6</li>
+                    </ul>
+                </div>
+                <script src="js/jquery-1.12.4.js"></script>
+                <script>
+                    $(".imgList li").on("click",function(){
+                        $(this).addClass("selected").siblings().removeClass("selected");
+                        $(".imgs img").eq($(this).index()).fadeIn().siblings().fadeOut();
+                    })
+                </script>
+                <script src="js/carousel.js"></script>
+
+
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/carousel.js"></script>
+    <!--旋转的立方体-->
+    <div class="dialog-box-2 dialog-box">
+        <div class="content">
+            <div class="dialog-title">
+                <span class="dialog-close">X</span>
+            </div>
+            <div class="dialog-body">
+                <div class="cube">
+                    <div class="square s1">1</div>
+                    <div class="square s2">2</div>
+                    <div class="square s3">3</div>
+                    <div class="square s4">4</div>
+                    <div class="square s5">5</div>
+                    <div class="square s6">6</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/carousel.js"></script>
+    <!--旋转木马-->
+    <div class="dialog-box-3 dialog-box">
+        <div class="content">
+            <div class="dialog-title">
+                <span class="dialog-close">X</span>
+            </div>
+            <div class="dialog-body">
+                <div id="stage3">
+                    <div id="container3">
+                    </div>
+                    <script>
+                        <!-- onload事件 确定图片已经加载完成-->
+                        var html="";
+                        var x=64/Math.tan(20*Math.PI/180)+20;
+                        var oContainer=document.getElementById("container3");
+                        var count=0;
+                        for(var i=0;i<9;i++){
+                            var oImg=new Image();
+                            oImg.onload=function(){
+                                count++;
+
+                                if(count==9){
+                                    var aImg =oContainer.getElementsByTagName("img");
+                                    var time=900;
+                                    for(var i=0;i<9;i++){
+                                        time-=100;
+                                        aImg[i].style.WebkitTransition="transform 2s ease "+time+"ms";
+                                        aImg[i].style.WebkitTransform='rotateY('+(-i*40)+'deg) translateZ('+x+'px)';
+                                    }
+                                }
+                            }
+                            oImg.src="images/img/"+(i+1)+".jpg";
+                            oContainer.appendChild(oImg);
+                        }
+                        var num=0;
+                        oContainer.onclick=function(){
+                            num++;
+                            this.style.webkitTransition="transform 1s ease ";
+                            this.style.WebkitTransform='rotateY('+num*40+'deg)';
+
+                        }
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/carousel.js"></script>
+    <!--漂亮的时钟-->
+    <div class="dialog-box-4 dialog-box">
+        <div class="content">
+            <div class="dialog-title">
+                <span class="dialog-close">X</span>
+            </div>
+            <div class="dialog-body">
+                <div id="div-clock">
+                    <ul id="clock">
+
+                    </ul>
+                    <div id="hour"></div>
+                    <div id="minute"></div>
+                    <div id="second"></div>
+                </div>
+                <script>
+                    var oClock=document.getElementById("clock");
+                    var html="";
+                    for(var i=0;i<60;i++){
+                        html+="<li style=-webkit-transform:rotate("+6*i+"deg)></li>";
+                    }
+                    oClock.innerHTML=html;
+                    var oHour=document.getElementById("hour");
+                    var oMinute=document.getElementById("minute");
+                    var oSecond=document.getElementById("second");
+                    function run(){
+                        var date=new Date();
+                        var iSecond=date.getSeconds();
+                        var iMinute=date.getMinutes()+iSecond/60;
+                        var iHour=date.getHours()+iMinute/60;
+                        oSecond.style.WebkitTransform="rotate("+iSecond*6+"deg)";
+                        oMinute.style.WebkitTransform="rotate("+iMinute*6+"deg)";
+                        oHour.style.WebkitTransform="rotate("+iHour*30+"deg)";
+                    }
+                    run();
+                    setInterval(function(){
+                        run();
+                    },1000)
+                </script>
+            </div>
+        </div>
+    </div>
+    <script src="js/carousel.js"></script>
+
+</body>
+</html>

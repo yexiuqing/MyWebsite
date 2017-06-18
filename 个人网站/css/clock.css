@@ -1,0 +1,122 @@
+.dialog-box-4{
+    background:rgba(0,0,0,0.6);
+    position:absolute;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    bottom:0px;
+    top: 0px;
+    /*z-index: 999;*/
+    display: none;
+}
+.dialog-box-4 .content{
+    width: 423px;
+    height: 498px;
+    background: #ffffff;
+    position: absolute;
+    left:50%;
+    top: 50%;
+    margin-top: -249px;
+    margin-left:-211px;
+    top: -250px;
+    animation: show 1s ease forwards;
+}
+@keyframes show {
+    100%{
+        top:50%;
+    }
+}
+.dialog-box-4 .dialog-title{
+    height: 30px;
+    background: #efefef;
+    /*text-align: center;*/
+    line-height: 30px;
+    border-bottom: 1px solid #efefef;
+}
+.dialog-box-4 .dialog-close{
+    float: right;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.dialog-box-4 .dialog-body{
+    text-align: center;
+    height: 406px;
+    /*子元素要居中，给父元素加text-align:center*/
+}
+
+li{
+    list-style:none ;
+}
+.dialog-box-4  #div-clock{
+    width: 300px;
+    height: 30px;
+    margin: 100px auto;
+    position: relative;
+
+}
+.dialog-box-4  #clock{
+    width: 300px;
+    height: 300px;
+    border: 2px solid #000000;
+    border-radius: 50%;
+    background: url(../images/3.jpg) no-repeat;
+    background-size:cover;
+    position: relative;
+}
+.dialog-box-4  #clock li{
+    width: 2px;
+    height: 2px;
+    background: #000;
+    position: absolute;
+    left: 149px;
+    top: 0;
+    -webkit-transform-origin:1px 150px;
+}
+.dialog-box-4  #clock li:nth-child(5n+1){
+    height: 8px;
+}
+.dialog-box-4  #hour{
+    width: 4px;
+    height: 50px;
+    background: #000;
+    position: absolute;
+    left: 148px;
+    top: 100px;
+
+    -webkit-transform-origin:2px 50px;
+    /* -webkit-webkit-transform-origin: 50% 100%;
+     -moz-webkit-transform-origin: 50% 100%;
+     -ms-webkit-transform-origin: 50% 100%;
+     -o-webkit-transform-origin: 50% 100%;
+     webkit-transform-origin: 50% 100%;*/
+}
+.dialog-box-4  #minute{
+    width: 3px;
+    height: 70px;
+    background: greenyellow;
+    position: absolute;
+    left: 148.5px;
+    top: 80px;
+    -webkit-transform-origin:1.5px 70px;
+    /*  -webkit-webkit-transform-origin: 50% 100%;
+      -moz-webkit-transform-origin: 50% 100%;
+      -ms-webkit-transform-origin: 50% 100%;
+      -o-webkit-transform-origin: 50% 100%;
+      webkit-transform-origin: 50% 100%;*/
+}
+.dialog-box-4 #second{
+    width: 2px;
+    height: 90px;
+    position: absolute;
+    left: 149px;
+    top: 60px;
+    background: #FF0000;
+    -webkit-transform-origin:1px 90px;
+
+    -webkit-webkit-transform-origin: 50% 100%;
+    -moz-webkit-transform-origin: 50% 100%;
+    -ms-webkit-transform-origin: 50% 100%;
+    -o-webkit-transform-origin: 50% 100%;
+    webkit-transform-origin: 50% 100%;
+
+}
