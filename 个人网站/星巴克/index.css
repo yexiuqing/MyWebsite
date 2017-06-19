@@ -1,0 +1,440 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+#header{
+    height: 100px;
+    display:-webkit-box;
+}
+/* #header div{
+     float: left;
+     text-align:center;
+     line-height: 100px;
+ }*/
+#menu{
+
+    -webkit-box-flex: 5;
+    /*background: #00ff00;*/
+    padding: 30px 37px;
+}
+/*   #menu img{
+       display: block;
+   }*/
+#menu span{
+    font-size: 12px;
+    letter-spacing:0.5px;
+    margin-left: 2px;
+}
+#logo{
+    text-align: center;
+    -webkit-box-flex: 2;
+    /*background: yellow;*/
+}
+#logo img{
+    padding: 15px 0px;
+    height: 73px;
+}
+#login{
+    -webkit-box-flex: 5;
+    /*background: blue;*/
+    text-align: center;
+}
+#login a{
+    color: #b89f7a;
+    font-weight: 700;
+    font-size: 14px;
+}
+#login span{
+    display: block;
+    margin-top: 30px ;
+    margin-right: 2px;
+}
+#banner{
+    position: relative;
+}
+#banner img{
+    width: 100%;
+    display: block;
+
+}
+#banner span{
+    width: 105px;
+    height: 52px;
+    line-height: 52px;
+    display: block;
+    text-align: center;
+    background: #cc865e;
+    color: #ffffff;
+    position: absolute;
+    bottom: 15px;
+    right: 27%;
+}
+#banner .banner2{
+    display: none;
+}
+#rewards-box{
+    background: #000;
+}
+#rewards{
+    width: 970px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 40px 0px 50px;
+}
+#rewards-mark{
+    width: 350px;
+    /*padding-left: 90px;*/
+    /*background: #ff0000;*/
+    float: left;
+
+}
+#rewards-mark p{
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 30px;
+}
+#rewards-content{
+    width: 430px;
+    /*background: #0000ff;*/
+    float: left;
+}
+#rewards-content .rewards-title{
+    color: #fff;
+    font-size: 25px;
+    /*margin-top: 40px;*/
+}
+#rewards-content .rewards-text{
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+#rewards-content .login-btn,#rewards-content .register-btn{
+    border: 2px solid #a98e67;
+    font-size: 16px;
+    color: #a98e67;
+    width: 106px;
+    height: 56px;
+    display:inline-block;
+    text-align: center;
+    line-height: 46px;
+}
+#rewards-content .login-btn:hover,#rewards-content .register-btn:hover{
+    background: #a98e67;
+    color: #ffffff;
+}
+#rewards-content, #rewards-mark{
+    /*height: 220px;*/
+    text-align: center;
+}
+#rewards-content .more-btn{
+    margin-left: 30px;
+    font-size: 16px;
+    color: #a98e67;
+}
+#dd{
+    position: relative;
+}
+#dd .dd_img1{
+    width: 100%;
+    display: block;
+}
+#dd .dd_img2{
+    display: none;
+}
+#dd a{
+    display: block;
+    position: absolute;
+    width: 105px;
+    height: 52px;
+    line-height: 52px;
+    background: #a98e67;
+    bottom: 10%;
+    right: 49%;
+    text-align: center;
+    color: #ffffff;
+}
+#app{
+    background: url("img/app_bg.gif") 0 center repeat;
+}
+#app .app1{
+    overflow: hidden;
+    /*display: none;*/
+
+}
+.app-device{
+    width: 35%;
+    background: url(img/app_device.png) center center no-repeat;
+    height: 215px;
+    float: left;
+    background-size: contain;
+    margin-top:10px
+}
+.app-download{
+    width: 20%;
+    float: left;
+    text-align: center;
+    margin-top:15px;
+}
+.app-download img{
+    width: 145px;
+    height: 145px;
+}
+.app-content{
+    width: 45%;
+    float: left;
+    margin-top:45px;
+}
+.app-content p{
+    line-height: 28px;
+    color: #3d3d3d;
+    font-size:25px;
+}
+.app-content a{
+    color: #967a50
+    font-size:14px;
+}
+
+#app .app2{
+    overflow:hidden;
+    text-align: center;
+    display: none;
+
+}
+.app2_head p{
+    line-height: 28px;
+    color: #3d3d3d;
+    font-size:25px;
+}
+.app2_downloadimg{
+    width: 50%;
+    heigth:35%;
+    float: left;
+}
+.app2_downloadimg img{
+   width: 50%;
+    height: 180px;
+}
+.app2 .app2_content{
+    width: 50%;
+    heigth:35%;
+    float: right;
+
+
+}
+.app2 .app2_download{
+    overflow: hidden;
+    width: 75%;
+    background: aquamarine;
+    border-radius: 25px;
+}
+.app2 .download_img{
+    float: left;
+    width: 20%;
+    /*margin-left: 15px;*/
+
+}
+.app2 .download_img img{
+    width: 100%;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+.app2 .download_txt{
+    float: right;
+    width: 80%;
+}
+.app2 .download_txt .download_app{
+    font-size:18px;
+    color: #ffffff;
+}
+.app2 .download_txt .download_key{
+    color: #fff;
+}
+.app2 .know_more a{
+    font-size: 9px;
+    color: #a98e67;
+}
+#tmall{
+    overflow: hidden;
+}
+#tmall .tmall_left{
+    float: left;
+    width: 50%;
+    position:relative;
+
+}
+#tmall .tmall_left img{
+    width: 100%;
+}
+#tmall .left_txt{
+    position: relative;
+}
+#tmall .left_txt h2{
+    width: 100%;
+    height: 38px;
+    bottom: 46px;
+    line-height: 38px;
+    text-align: center;
+    position: absolute;
+    color:#fff;
+    font-size: 30px;
+    font-weight: 900;
+
+}
+#tmall .left_txt h3{
+    width: 100%;
+    height: 30px;
+    bottom: 20px;
+    line-height: 30px;
+    text-align: center;
+    position: absolute;
+    color:#a98e67;
+
+}
+#tmall .tmall_right{
+    float: right;
+    width: 50%;
+    position: relative;
+}
+#tmall .tmall_right img{
+    width: 100%;
+}
+#tmall .right_txt{
+    position: relative;
+}
+#tmall .right_txt h2{
+    width: 100%;
+    height: 38px;
+    bottom: 46px;
+    line-height: 38px;
+    text-align: center;
+    position: absolute;
+    color:#fff;
+    font-size: 30px;
+    font-weight: 900;
+}
+#tmall .right_txt h3{
+    width: 100%;
+    height: 30px;
+    bottom: 20px;
+    line-height: 30px;
+    text-align: center;
+    position: absolute;
+    color:#a98e67;
+}
+#wsg1{
+    background: #106e4b;
+    padding:30px 0px;
+}
+#wsg1 .wsg-top{
+    float: left;
+}
+#wsg1 .wsg-top>div{
+    float: left;
+
+}
+#wsg1 .wsg-bottom{
+    float: right;
+}
+#wsg1 .wsg-bottom>div{
+    float: left;
+}
+@media screen and (max-width: 991px){
+    #banner .banner1{
+        display: none;
+    }
+    #banner .banner2{
+        display: block;
+    }
+}
+@media screen and (max-width:776px ){
+    #menu{
+        padding-left: 15px;
+    }
+    #login{
+        font-size: 12px;
+        padding-right: 10px;
+    }
+    #rewards{
+        width: 100%;
+    }
+    #rewards-content,#rewards-mark{
+        float: none;
+        width: 100%;
+    }
+    #rewards-mark{
+        margin-bottom: 55px;
+    }
+    #rewards-content{
+        text-align: center;
+    }
+    #rewards-content .rewards-text{
+        margin: 15px 0px 20px;
+    }
+    .btn .login-btn,.btn .register-btn,.btn .more-btn{
+        display: block;
+    }
+    #rewards-content .login-btn,#rewards-content .register-btn{
+        /*float: none;*/
+        width: 70%;
+        margin: 0 auto;
+    }
+    #rewards-content .register-btn{
+        margin:8px auto 20px ;
+    }
+    #rewards-content .more-btn{
+        text-align: right;
+        margin-right: 35px;
+    }
+    #rewards-content .rewards-text{
+        margin: 10px 0 30px 0 ;
+    }
+    #dd .dd_img1{
+        display: none;
+    }
+    #dd .dd_img2{
+        width: 100%;
+        display: block;
+    }
+    #dd a{
+        bottom: 15px;
+        right: 10px;
+    }
+    #app .app1{
+        display: none;
+    }
+    #app .app2{
+        display: block;
+    }
+    #app  .download_app{
+        font-size: 10px;
+    }
+    #app  .download_key{
+        font-size: 10px;
+    }
+    /*#app  .download_img img{
+        width:20%;
+    }*/
+    #app .app2_head p{
+        font-size: 18px;
+    }
+
+    #app .app2_downloadimg img{
+        height: 60%;
+    }
+    #tmall .tmall_left{
+        width: 100%;
+        display: block;
+    }
+    #tmall .tmall_right{
+        width: 100%;
+        display: block;
+    }
+}
+

@@ -1,0 +1,76 @@
+.dialog-box-6{
+    background:rgba(0,0,0,0.8);
+    position:absolute;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    bottom:0px;
+    top: 0px;
+    /*z-index: 999;*/
+    display: none;
+
+    background: #000;
+    /*height: 600px;*/
+    float: left;
+    -webkit-perspective: 800px;
+    -webkit-perspective-origin: bottom;
+    /*center -20%*/
+}
+
+/*body{
+    background: #000;
+    /!*height: 600px;*!/
+    float: left;
+    -webkit-perspective: 800px;
+    -webkit-perspective-origin: bottom;
+    /!*center -20%*!/
+
+
+}*/
+#star-container{
+    -webkit-transform-style: preserve-3d;/*-webkit-transform-style: preserve-3d; 里层父元素维持3d,是想让div和container维持3d*/
+    position: relative;
+    text-align: center;
+    /*width: 5px;*/
+    height: 5px;
+    /*height: 400px;*/
+    margin: -5px -5px;
+    float: left;
+}
+#star-container img{
+    position: relative;
+    -webkit-transform: rotateX(75deg);
+    float: left;
+
+}
+#circle{
+    -webkit-transform-style: preserve-3d;/*-webkit-transform-style: preserve-3d; 里层父元素维持3d,是想让div和container维持3d*/
+    position: relative;
+    text-align: center;
+    width: 400px;
+    /*height: 400px;*/
+    margin: 80px 400px;
+    float: left;
+}
+#circle div{
+    width: 400px;
+    height: 400px;
+    color: #fff;
+    border: 2px solid rgba(58, 56, 212, 0.6);
+    border-radius: 50%;
+    background: rgba(58, 40, 212, 0.5)
+position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 400px;
+    float: left;
+    bottom: 0;
+    box-shadow:
+    0 0 5px 10px  rgba(82, 138, 239, 0.3),
+    0 0 5px 155px  rgba(115, 179, 245, 0.2),
+    0 0 5px 305px rgba(181, 189, 241, 0.1);
+
+    /*-weiblkit-transform:rotateX(750deg);*/
+    -webkit-transform: rotateX(90deg) translateY(-9px)
+    /*-webkit-perspective-origin: bottom;*/
+}

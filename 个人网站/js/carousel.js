@@ -76,3 +76,17 @@ $dialogBox4.on("click",function(e){
         $(".content").stop().css("top","-249px");     //这样每次不刷新点击图片都有动画
     }
 })
+//散落的满天星
+var $dialogBox6=$(".dialog-box-6");
+$("#production-list .production-6").on("click",function(){
+    zindex++;
+    $dialogBox6.css('zIndex',zindex);
+    $dialogBox6.show();
+
+})
+$dialogBox6.on("click",function(e){
+    if(e.target==$dialogBox6[0]){    //$dialogBox[0]取到原生对象
+        $dialogBox6.hide();
+        //$(".content").stop().css("top","-249px");     //这样每次不刷新点击图片都有动画
+    }
+})
