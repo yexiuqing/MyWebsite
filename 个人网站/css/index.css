@@ -78,7 +78,7 @@ a{
     color: #ffffff;
 }
 #detail-info .col-md-1 h4,#detail-info .col-md-1 p{
-    margin-right: 15px;
+    margin-right: 35px;
 }
 /*skill*/
 #skill{
@@ -221,6 +221,7 @@ a{
     #detail-info .col-md-1 h4,#detail-info .col-md-1 p{
         margin-right: 0px;
     }
+
     #skill{
         display: none;
     }
