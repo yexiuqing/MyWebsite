@@ -26,10 +26,10 @@
         top:50%;
     }
 }
-.dialog-box-3 .dialog-title{
+/*.dialog-box-3 .dialog-title{
     height: 30px;
     background: #efefef;
-    /*text-align: center;*/
+    /!*text-align: center;*!/
     line-height: 30px;
     border-bottom: 1px solid #efefef;
 }
@@ -37,7 +37,7 @@
     float: right;
     margin-right: 10px;
     cursor: pointer;
-}
+}*/
 .dialog-box-3 .dialog-body{
     text-align: center;
     height: 406px;

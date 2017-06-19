@@ -47,7 +47,7 @@ a{
     margin: 0px 0px;
     font-size: 17px;
     padding: 11px 104px;
-    background: #000011;
+    background: #bddfe3;
     font-weight: 600;
 }
 #img img{
@@ -56,7 +56,7 @@ a{
 }
 /*πÿ”⁄Œ“*/
 #about{
-    background: #141a0b;
+    background: #bddfe3;
     padding: 50px;
 }
 #about-info h2{
@@ -79,6 +79,13 @@ a{
 }
 #detail-info .col-md-1 h4,#detail-info .col-md-1 p{
     margin-right: 35px;
+
+}
+#detail-info .about-grid p{
+    font-size: 21px;
+}
+#detail-info .about-grid h4{
+    font-size: 23px;
 }
 /*skill*/
 #skill{
@@ -88,7 +95,7 @@ a{
 #skill .skill-info h2{
     font-family: 'Jockey One', sans-serif;
     margin: 0;
-    /*color: #ced7df;*/
+    /*color: #bddfe3;*/
     color: #141a0b;
     font-size: 44px;
     text-align: center;
@@ -138,7 +145,7 @@ a{
     /*color: #ced7df;*/
 }
 #production{
-    background: #141a0b;
+    background: #bddfe3;
 }
 #production li{
     float: left;
